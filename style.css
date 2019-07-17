@@ -1,9 +1,67 @@
-header {
-    background-image: url(quiz.png); /* Image par<a href="https://pixabay.com/fr/users/Josethestoryteller-5100055/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2453148">Jose R. Cabello</a> de <a href="https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2453148">Pixabay</a>*/
-    background-size: contain;
-    height: 324px;
+/*Overall*/
+
+
+html{
+    background-color: #EBBAB9;
+    color: white;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+
+/*HEADER*/
+
+header {
+    height: 15%;
+    border: 10px #A3320B dashed;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+span:hover {
+    text-shadow: 0 0 10px #B5FFE1;
+}
+
+/*FORM*/
+
+#quiz {
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+
+}
+
+input[type=radio]{
+
+}
+
+#button {
+    margin-top: 10px;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background-color: #CC2936;
+    border-radius: 10px;
+    }
+
+
 .result {
+    text-align: center;
+    font-size: 35px;
     display: none;
+}
+
+.result:hover {
+    text-shadow: 0 0 10px #B5FFE1;
+}
+
+.result img {
+    border-radius: 15px;
 }
